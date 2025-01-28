@@ -42,3 +42,14 @@ In this milestone, we focused on building the front-end login page using React a
    - Linked the login page to the main App.jsx file by creating a LoginPage.jsx component in the pages folder.
 
 ---
+Milestone 3: Back-End Setup - Node.js & MongoDB
+In this milestone, we focused on setting up the back-end of the application. Key activities included:
+
+1. Folder Structure & Organization
+Organized the back-end code into dedicated folders for models, controllers, routes, and middleware to ensure scalability.
+2. Node.js Server Setup
+Initialized a Node.js server and created a server.js file to handle API requests.
+3. MongoDB Integration
+Connected the application to MongoDB, setting up the database for storing data related to products, users, and orders.
+4. Error Handling
+Implemented basic error handling to ensure the application responds appropriately to failed requests and server errors.

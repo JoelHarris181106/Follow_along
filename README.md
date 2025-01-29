@@ -113,3 +113,11 @@ Technologies Used
 Backend endpoint for user login
 Bcrypt for password hashing
 Database for storing user records.
+
+Milestone 8: Frontend Card Component and Homepage Design
+Learning Goals
+Create a card component
+Display cards on products page
+Steps
+Create card component with props (name, image, price)
+Design homepage layout with grid or flexbox.

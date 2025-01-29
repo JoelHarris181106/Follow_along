@@ -89,3 +89,27 @@ Added form validation to ensure users input valid data.
 Future Work
 Connect the frontend with the backend.
 Implement user session management.
+
+Milestone 6: Encrypting Passwords and Storing User Data Securely
+Achievements:
+In this milestone, I completed the following tasks:
+
+Implemented password encryption using bcrypt to hash user passwords during signup.
+Stored the hashed password in the database instead of plain text.
+Saved all user data (e.g., name, email, etc.) in the database while ensuring that the password remains encrypted.
+Code Changes:
+Updated the backend API to use bcrypt for password hashing.
+Modified the database schema to store hashed passwords.
+Implemented data validation and sanitization to ensure secure data storage.
+
+Login Functionality Progress for Milestone 7
+In this milestone, we implemented a backend endpoint for user login, focusing on validating user credentials and verifying the encrypted password stored in the database.
+
+Key Features
+Validating user credentials during login
+Comparing encrypted passwords using bcrypt
+Protecting user data by storing hashed passwords
+Technologies Used
+Backend endpoint for user login
+Bcrypt for password hashing
+Database for storing user records.
